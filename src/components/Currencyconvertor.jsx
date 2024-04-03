@@ -66,6 +66,7 @@ const Currencyconvertor = () => {
 
     const resetInputValue = () => {
         setAmount(1)
+        setConvertedAmount("")
     }
     return (
 

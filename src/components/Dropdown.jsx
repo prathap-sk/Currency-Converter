@@ -11,7 +11,7 @@ const Dropdown = ({
 }) => {
 
     const isFavorite = (curr) => favorites.includes(curr);
-    
+
     return (
         <div>
             <label
@@ -34,7 +34,6 @@ const Dropdown = ({
                             </option>
                         ))
                     }
-                    <hr />
                     {
                         currencies.filter((c) => !favorites.includes(c))
                             ?.map((currency) => (
